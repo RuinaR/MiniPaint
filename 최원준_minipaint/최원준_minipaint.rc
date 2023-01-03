@@ -1,0 +1,93 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "선택"
+    BEGIN
+        MENUITEM "원",                           ID_CIRCLE
+        MENUITEM "사각형",                         ID_RECT
+        MENUITEM "직선",                          ID_LINE
+        MENUITEM "자유선",                         ID_FREELINE
+        MENUITEM "문자열",                         ID_STR
+        MENUITEM "지우기",                         ID_CLEAR
+        MENUITEM "종료",                          ID_EXIT
+    END
+    POPUP "면색"
+    BEGIN
+        MENUITEM "빨강",                          ID_S_RED
+        MENUITEM "파랑",                          ID_S_BLUE
+        MENUITEM "초록",                          ID_S_GREEN
+    END
+    POPUP "선색"
+    BEGIN
+        MENUITEM "빨강",                          ID_L_RED
+        MENUITEM "파랑",                          ID_L_BLUE
+        MENUITEM "초록",                          ID_L_GREEN
+    END
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
